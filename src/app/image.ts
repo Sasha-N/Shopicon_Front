@@ -1,3 +1,4 @@
 export class Image {
-    data: number;
+    id: number;
+    path: string;
 }

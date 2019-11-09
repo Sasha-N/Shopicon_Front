@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../api.service';
+import { Image } from '../image';
 
 @Component({
   selector: 'app-images',

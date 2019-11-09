@@ -9,6 +9,8 @@ export class ApiService {
   constructor(private httpClient: HttpClient) { }
 
   public getImages(){
-    return this.httpClient.get(`/api`);
+    console.log("hello");
+    // return this.httpClient.get('/api');
+    return this.httpClient.get('/api');
   }
 }
